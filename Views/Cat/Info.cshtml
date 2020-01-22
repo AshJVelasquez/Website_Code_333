@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Info";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Cat information</h2> 
+<p>
+    Here's a list of what you can do </p>
+<p>
+    @Html.ActionLink("Click here", "List", "Cat") to view the list of cats
+</p>
+   <p> Feel free to add a cat to the list by @Html.ActionLink("clicking here","Create","Cat")
+</p>
